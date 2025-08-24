@@ -11,12 +11,39 @@ $result = $conn->query($sql);
   <meta charset="UTF-8">
   <title>College News</title>
   <link rel="stylesheet" href="CSS/news.css">
+  <style>
+    header {
+  position: relative;
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background-color: #ffcc00;
+  color: #004080;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #e6b800;
+}
+  </style>
 </head>
 <body>
   <header>
-    <h1>📢 Latest News & Updates</h1>
-    <p>Stay informed about campus happenings, achievements, and events.</p>
-  </header>
+  <h1>📢 Latest News & Updates</h1>
+  <p>Stay informed about campus happenings, achievements, and events.</p>
+  <a href="index.php" class="home-button">🎓 HOME</a>
+</header>
 
   <main class="news-container">
     <?php if ($result->num_rows > 0): ?>
