@@ -1,0 +1,324 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+/* Apply to entire site */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Optional: Use Baloo Bhai 2 for headings or Marathi text */
+h1, h2, h3, .marathi-text {
+  font-family: 'Baloo Bhai 2', cursive;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;         /* Optional: adjust size */
+  line-height: 1.6;         /* Optional: improves readability */
+  color: #333;              /* Optional: text color */
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Symbol */
+.symbol {
+  font-size: 40px;
+  margin-right: 15px;
+}
+.logo-box {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #004080;
+  color: white;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.title-text p {
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+}
+/* Symbol */
+
+nav {
+  background-color: #0055a5;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  background-image: url('../images/collage.png');
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.content {
+  padding: 40px;
+  text-align: center;
+}
+
+footer {
+  background-color: #b7c2cd;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
+
+/* nav bar css |*/
+nav {
+  background-color: #0055a5;
+}
+
+/* Container */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 40px;
+}
+
+/* Card Style */
+.card {
+  width: 250px;
+  padding: 20px;
+  background: #f0f4ff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+  transition: transform 0.6s ease;
+  transform: rotate(0deg);
+}
+
+/* Header */
+.card h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+/* Features */
+.card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.card ul li {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  margin: 6px 0;
+  color: #34495e;
+}
+
+/* Hover Animation */
+.card:hover {
+  transform: rotate(2deg);
+  background: #d1e8ff; /* Light Blue – Cybersecurity */
+}
+
+
+.navbar {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar > li {
+  position: relative;
+}
+
+.navbar > li > a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  background-color: #0077cc;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1000;
+}
+
+.dropdown li a {
+  display: block;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.navbar li:hover .dropdown {
+  display: block;
+}
+/* campus tur |*/
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f0f4f8;
+  color: #333;
+}
+
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.gallery {
+  text-align: center;
+  padding: 30px;
+}
+
+.gallery img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+#infoBox {
+  margin: 15px 0;
+  font-size: 1.1em;
+  animation: fadeIn 1s ease-in-out;
+}
+
+button {
+  padding: 10px 20px;
+  background: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #005fa3;
+}
+
+.feedback {
+  background: #e6f2ff;
+  padding: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: auto;
+}
+
+input, textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #004080;
+  padding: 10px 20px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+  color: #ffcc00;
+}
+
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    flex-direction: column;
+    background-color: #004080;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    display: none;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+    font-size: 1.5em;
+  }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
