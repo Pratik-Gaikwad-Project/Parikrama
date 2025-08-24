@@ -1,11 +1,5 @@
 <?php
 include 'db.php';
-
-$conn = new mysqli($host, $user, $pass, $dbname);
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
 // Fetch news items
 $sql = "SELECT title, description, image FROM news ORDER BY created_at DESC";
 $result = $conn->query($sql);

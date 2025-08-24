@@ -50,6 +50,48 @@ header {
   margin: 0;
   font-size: 24px;
   font-family: 'Poppins', sans-serif;
+  align:center;
+}
+
+.title-text p {
+  margin: 0;
+  font-size: 14px;
+  align:center;
+  font-family: 'Roboto', sans-serif;
+}
+/* Symbol */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #004080;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 60px;
+  height: auto;
+  margin-right: 15px;
+}
+
+.title-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.title-text h1 {
+  margin: 0;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
 }
 
 .title-text p {
@@ -57,8 +99,6 @@ header {
   font-size: 14px;
   font-family: 'Roboto', sans-serif;
 }
-/* Symbol */
-
 nav {
   background-color: #0055a5;
   display: flex;

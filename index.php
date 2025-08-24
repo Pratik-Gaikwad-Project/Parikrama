@@ -9,24 +9,15 @@
 <body>
 
   <header>
-  <div class="logo-box">
-    <img src="images/symbol.jpg" alt="Parikrama Logo" class="logo">
-    <div class="title-text">
-      <h1>Parikrama College of Engineering</h1>
-      <p>Empowering Future Innovators</p>
+    <div class="logo-box">
+      <img src="images/symbol.jpg" alt="College Logo" class="logo">
     </div>
-  </div>
-</header>
 
-<header>
-  <div class="logo-box">
-    <span class="symbol">🎓</span>
     <div class="title-text">
       <h1>Parikrama College of Engineering</h1>
-      <p>Empowering Future Innovators</p>
+      <p>Empowering Minds, Shaping Futures</p>
     </div>
-  </div>
-</header>
+  </header>
 
   <nav>
   <ul class="navbar">
@@ -140,7 +131,7 @@
   <div class="content">
     <h2>Latest News & Events</h2>
   <?php
-          <?php
+        
              include 'db.php';
                   $sql = "SELECT title, description, event_date FROM events ORDER BY event_date ASC";
                   $result = $conn->query($sql);
