@@ -25,7 +25,7 @@
       <a href="#">Home</a>
       <ul class="dropdown">
         <li><a href="#">Welcome</a></li>
-        <li><a href="campus.html">Campus Tour</a></li>
+        <li><a href="campus.php">Campus Tour</a></li>
         <li><a href="News.php">News</a></li>
         <li><a href="#">Events</a></li>
         <li><a href="#">Gallery</a></li>
