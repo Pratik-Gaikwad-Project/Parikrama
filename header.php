@@ -24,6 +24,6 @@
     <header>
   <h1>📢 Parikrama College</h1>
   <p>Empowering Minds, Shaping Futures</p>
-  <a href="mainindex.php" class="home-button">Home</a>
+  <a href="home.php" class="home-button">Home</a>
 </header>
 </html>
