@@ -23,7 +23,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       $_SESSION["role"] = $role;
 
       if ($role === "student") {
-        header("Location: Home.php");
+        header("Location: home.php");
         exit();
       } else {
         header("Location: admin.php");
